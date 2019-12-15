@@ -1,5 +1,7 @@
 #! /bin/bash
 
+#Coded By Akash Giri
+
 green='\e[32m'
 yellow='\e[33m'
 magneto='\e[36m'
@@ -10,8 +12,8 @@ function banner(){
  echo -e "\n$green"
  echo "
        	       ╔────────────────────────────────────────────────╗
-       	       |    Video To Audio Convertor Version - 1.0.1    |
-       	       |          Developed By :- Akash Giri            |
+       	       |    Video To Audio Convertor Version - 1.0.1             |
+       	       |          Developed By :- Akash Giri                     |
        	       ┖────────────────────────────────────────────────┙
  "
  figlet -c -k -f small Video2Audio|lolcat 
