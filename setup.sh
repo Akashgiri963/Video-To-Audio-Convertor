@@ -12,6 +12,7 @@ echo -e "\n\n\e[33mInstalling Lolcat...\n\e[32m"
 pip install lolcat
 echo -e "\n\n\e[33mInstalling ffmpeg...\n\e[32m"
 pkg install -y ffmpeg
+termux-setup-storage
 
 chmod +x ~/Video-To-Audio-Convertor/V2A-Convertor.sh
 
